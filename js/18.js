@@ -1,6 +1,5 @@
 // while loop
 let angka = [];
-
 let i = 5;
 
 while (i >= 0) {

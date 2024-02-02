@@ -9,5 +9,4 @@ for (const num of angka) {
 }
 
 console.log(ganjil);
-
 console.log(angka);

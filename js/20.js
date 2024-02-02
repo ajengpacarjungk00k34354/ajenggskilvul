@@ -4,7 +4,9 @@ function warnaKesukaan(warna = "putih") {
 }
 
 let hasil = warnaKesukaan();
+
 console.log(hasil);
 
 hasil = warnaKesukaan("biru");
+
 console.log(hasil);

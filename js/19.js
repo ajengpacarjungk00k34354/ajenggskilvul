@@ -8,4 +8,5 @@ do {
 } while (i < 11);
 
 console.log(angka); 
+
 console.log(i); 

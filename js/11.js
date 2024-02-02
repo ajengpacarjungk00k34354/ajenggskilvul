@@ -7,4 +7,5 @@ let kucing = {
     }
 };
 
+
 console.log(kucing.suara());

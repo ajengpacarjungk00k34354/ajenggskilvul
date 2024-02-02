@@ -9,5 +9,4 @@ for (let i = 0; i < angka.length; i++) {
 }
 
 console.log(genap);
-
 console.log(angka);

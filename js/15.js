@@ -8,5 +8,6 @@ function ganjilGenap(platNomor) {
     }
 }
 
-console.log(ganjilGenap(10)); 
+console.log(ganjilGenap(10));
+ 
 console.log(ganjilGenap(15)); 
