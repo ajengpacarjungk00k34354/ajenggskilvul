@@ -4,8 +4,25 @@
 <head>
     <title>Perkenalan HTML</title>
 
+    <title>Website Pribadiku</title>
 
     <title>Website Pribadiku</title>
+
+    <!-- ini span -->
+    <title>Span</title>
+
+    <!-- ini huruf miring -->
+    <title>Huruf Miring</title>
+
+    <title>List</title>
+     <!-- form -->
+    <title>Belajar Membuat Form pada HTML</title>
+
+    <!-- layout -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh HTML SkilPoin</title>
+
 </head>
 
 <body>
@@ -19,100 +36,43 @@
 <!-- ini awal html attribute -->
 <a href="https://www.wikipedia.org">Hello Wikipedia</a>
 
-</body>
-
-</html>
-
-
-
-<html>
-
-<head>
-    <title>Website Pribadiku</title>
-</head>
-
-<body>
-    <!-- <p>Halo semua! Namaku Sarah!</p> -->
-</body>
-
-</html>
-<!-- ini akhir comment -->
+<!-- ini comment -->
+   <!-- <p>Halo semua! Namaku Sarah!</p> -->
 
 <!-- ini heading -->
 <h1>Hello Kitty</h1>
-<!-- ini akhir heading -->
 
 <!-- ini awal paragraf -->
 <p>Hello Paragraph</p>
-<!-- ini akhir paragraf -->
 
 <!-- ini link/anchor -->
 <a id="link1" href="https://www.google.com">Welcome to Google!</a><br>
 <a id="link2" href="https://www.wikipedia.com">Welcome to Wikipedia</a>
-<!-- ini akhir link/anchor -->
 
-<!-- ini span -->
-<!DOCTYPE html>
-<html>
+<!-- Perbaikilah element berikut-->
+<p>Mobil <span style="color:red">merah</span> itu sangat cepat</p>
 
-<head>
-    <title>Span</title>
-</head>
-
-<body>
-
-    <!-- Perbaikilah element berikut-->
-    <p>Mobil <span style="color:red">merah</span> itu sangat cepat</p>
-
-</body>
-
-</html>
-<!-- ini akhir span -->
 
 <!-- ini bold -->
 <p>Dia sangat<b> kuat</b></p>
-<!-- ini akhir bold -->
 
-<!-- huruf miring -->
-<!DOCTYPE html>
-<html>
+<!-- ini huruf miring -->
+<p>Semut termasuk kelompok serangga yang merupakan anggota keluarga dari <em>Artropoda<em></p>
 
-<head>
-    <title>Huruf Miring</title>
-</head>
-
-<body>
-
-    <p>Semut termasuk kelompok serangga yang merupakan anggota keluarga dari <em>Artropoda<em></p>
-
-</body>
-
-</html>
-<!-- akhir huruf miring -->
-
-<!-- ini list -->
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>List</title>
-</head>
-
-<body>
-    <!-- Unordered List  -->
-    <ul>
-        <li>Kopi</li>
-        <li>
-            Teh
-            <!-- Ordered List -->
-            <ol>
-                <li>Teh Hitam</li>
-                <li>Teh Hijau</li>
-            </ol>
-        </li>
-        <li>Susu</li>
-    </ul>
-    <!-- akhir list -->
+    <!-- order -->
+<!-- Unordered List  -->
+<ul>
+    <li>Kopi</li>
+    <li>
+        Teh
+        <!-- Ordered List -->
+        <ol>
+            <li>Teh Hitam</li>
+            <li>Teh Hijau</li>
+        </ol>
+    </li>
+    <li>Susu</li>
+</ul>
 
     <!-- gambar -->
     <img src="https://bit.ly/2FKluzq" alt="Si Kucing" />
@@ -151,64 +111,62 @@
     </table>
     <!-- akhir tabel -->
 
-    <!-- formulir -->
-    <!DOCTYPE html>
-    <html>
+    <!-- form -->
+    <form>
+        <fieldset>
+            <legend>Formulir Calon Pegawai</legend>
 
-    <head>
-        <title>Belajar Membuat Form pada HTML</title>
-    </head>
+            <p>Nama : <input type="text" name="nama"></p>
+            <p>Alamat : <input type="text" name="alamat"></p>
+            <p>Password : <input type="password" name="pass"></p>
+            <p>
+                Jenis Kelamin :
+                <input type="radio" name="jk" value="laki-laki" checked />
+                Laki - Laki
+                <input type="radio" name="jk" value="perempuan" />
+                Perempuan
+            </p>
+            <p>
+                Bahasa pemograman yang dikuasai :
+                <input type="checkbox" name="web"> Web
+                <input type="checkbox" name="mobile"> MOBILE
+                <input type="checkbox" name="desk"> DESKTOP
+            </p>
+            <p>
+                Kota asal :
+                <select>
+                    <option></option>
+                    <option>Semarang</option>
+                    <option>Bandung</option>
+                </select>
+            </p>
+            <p>
+                Mobil:
+                <select id="carSelect">
+                    <option value=""></option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <!-- Ditambahkan opsi Mercedes di sini -->
+                </select>
+            </p>
+            <p>
+                Apa yang Membuat Kami harus memilih Anda?:<br>
+                <textarea rows='10' cols='60' placeholder="Tulis jawaban Anda di sini"></textarea>
+            </p>
+            <p><input type="submit" value="proses"></p>
+        </fieldset>
+    </form>
+</body>
 
-    <body>
-        <form>
-            <fieldset>
-                <legend>Formulir Calon Pegawai</legend>
+</html>
 
-                <p>Nama : <input type="text" name="nama"></p>
-                <p>Alamat : <input type="text" name="alamat"></p>
-                <p>Password : <input type="password" name="pass"></p>
-                <p>
-                    Jenis Kelamin :
-                    <input type="radio" name="jk" value="laki-laki" checked />
-                    Laki - Laki
-                    <input type="radio" name="jk" value="perempuan" />
-                    Perempuan
-                </p>
-                <p>
-                    Bahasa pemograman yang dikuasai :
-                    <input type="checkbox" name="web"> Web
-                    <input type="checkbox" name="mobile"> MOBILE
-                    <input type="checkbox" name="desk"> DESKTOP
-                </p>
-                <p>
-                    Kota asal :
-                    <select>
-                        <option></option>
-                        <option>Semarang</option>
-                        <option>Bandung</option>
-                    </select>
-                </p>
-                <p>
-                    Mobil:
-                    <select id="carSelect">
-                        <option value=""></option>
-                        <option value="volvo">Volvo</option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <!-- Ditambahkan opsi Mercedes di sini -->
-                    </select>
-                </p>
-                <p>
-                    Apa yang Membuat Kami harus memilih Anda?:<br>
-                    <textarea rows='10' cols='60' placeholder="Tulis jawaban Anda di sini"></textarea>
-                </p>
-                <p><input type="submit" value="proses"></p>
-            </fieldset>
-        </form>
-    </body>
 
-    </html>
-    <!-- akhir formulir -->
+
+
+
+
+
 
     <!-- layout -->
     <!DOCTYPE html>
