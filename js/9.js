@@ -6,3 +6,5 @@ let manusia = {
 };
 
 manusia.ekor = false;
+
+console.log(manusia);

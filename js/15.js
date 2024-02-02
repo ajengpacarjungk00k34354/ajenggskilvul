@@ -7,3 +7,6 @@ function ganjilGenap(platNomor) {
         return "Ganjil";
     }
 }
+
+console.log(ganjilGenap(10)); 
+console.log(ganjilGenap(15)); 
