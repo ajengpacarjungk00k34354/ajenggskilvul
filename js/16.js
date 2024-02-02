@@ -7,3 +7,7 @@ for (let i = 0; i < angka.length; i++) {
         genap.push(angka[i]);
     }
 }
+
+console.log(genap);
+
+console.log(angka);
