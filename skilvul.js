@@ -1,35 +1,5 @@
 
 
-// string
-let kalimat = 'Hello';
-kalimat += " World";
-
-// mendeklarasi fungsi
-function namaSaya() {
-    return "Ajeng";
-}
-
-// parameter
-function luasPersegi(s) {
-    return s * s;
-}
-
-// mendeklarasikan objek
-let saya = new Object();
-
-saya.nama = 'Ajeng',
-    saya.umur = 16
-
-console.log(saya);
-
-// menambahkan properti
-let manusia = {
-    kepala: true,
-    badan: true,
-    tangan: true
-};
-
-manusia.ekor = false;
 
 //   menghapus
 let tubuh = {
