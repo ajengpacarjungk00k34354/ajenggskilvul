@@ -1,23 +1,4 @@
-// deklarasi variabel
-let animal;
-console.log(animal);
 
-// tipe data
-let namaSaya = "data string di sini";
-let umurSaya = 25;
-
-// operator aritmatika
-const penjumlahan = 7 + 8;
-
-const modulus = penjumlahan % 12; // Hasil 15 % 12 = 3
-
-const pangkat = modulus ** 3; // Hasil 3 pangkat 3 = 27
-
-// assignment 
-let umur = 10;
-
-// Tulis kode kalian di bawah ini
-umur += 5;
 
 // string
 let kalimat = 'Hello';
